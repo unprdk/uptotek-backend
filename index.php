@@ -1,6 +1,7 @@
 <?php
 // Getting dem includes.
 require_once("Includes/MysqlConstants.php");
+require_once("Includes/HeaderConstants.php");
 require_once("Includes/Controllers.php");
 require_once("Includes/Route.php");
 

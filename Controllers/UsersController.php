@@ -16,7 +16,7 @@ class UsersController extends BaseController{
         $result = $this->GetDb()->query("SELECT * from `uptotek_skills`");
         // Iterate through them.
         while($data = $result->fetch_assoc()){
-            // Push them to an array (skills) on the single user object.
+            // Push them to an array (skills) on the single-user object.
             $users[$data["userid"]]["skills"][] = $data["skill"];
         }
         
